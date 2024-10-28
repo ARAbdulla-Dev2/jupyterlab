@@ -1,5 +1,5 @@
 # Use the latest Ubuntu image
-FROM debian:latest
+FROM ubuntu:latest
  
 # Update and install required packages
 RUN apt-get update && apt-get install -y \
